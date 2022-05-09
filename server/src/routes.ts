@@ -1,5 +1,4 @@
 import express from "express";
-import nodemailer from "nodemailer";
 import { SubmitFeedbackService } from "./services/SubmitFeedbackService";
 import { PrismaFeedbacksRepository } from "./repositories/prisma/PrismaFeedbacksRepository";
 import { NodemailerMailAdapter } from "./adapters/nodemailer/nodemailerMailAdapter";
